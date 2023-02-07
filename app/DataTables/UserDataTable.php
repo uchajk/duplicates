@@ -46,7 +46,7 @@ class UserDataTable extends DataTable
                     ->columns($this->getColumns())
                     ->minifiedAjax()
 //                    ->dom('Bfrtip')
-                    ->orderBy(1)
+                    ->orderBy(3)
                     ->selectStyleSingle();
     }
 
@@ -59,6 +59,7 @@ class UserDataTable extends DataTable
     {
         return [
             Column::make('id'),
+            Column::make('email'),
             Column::make('created_at'),
             Column::make('updated_at'),
         ];

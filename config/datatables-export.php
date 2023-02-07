@@ -26,7 +26,7 @@ return [
     | Chunk size to be used when using lazy method.
     |
     */
-    'chunk' => 1000,
+    'chunk' => 100,
 
     /*
     |--------------------------------------------------------------------------
